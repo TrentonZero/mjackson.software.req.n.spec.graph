@@ -50,6 +50,44 @@ digraph {
    "Mathematics";
    "Method" -> "Multiframe Problem", "Problem Context", "Requirement";
    "Misfit" -> "Problem Frame", "Procrustes", "Workpieces Frame", "Problem Context", "Requirement", "Simple IS Frame", "JSP Frame"
+   "Model" -> "Machine"
+   "Mood"
+   "Multiframe Problem" -> "Problem Frame" , "Context Diagram" , "Workpiece Frame", "Simple IS Frame", "Simple Control Frame", "Frame Diagram"
+   "Narrow Bridge" -> "Definition", "Designated"
+   "Object Oriented Analysis" -> "Phenomena" , "Individual"
+   "Package Router Problem" -> "Application Domain", "Problem Context", "What and How", "Multiframe Problem", "Problem Complexity", "Simple Control Frame", "Domain Characteristic", "Model"
+   "Partial Descriptions" -> "Application Domain", "Requirement", "Problem Frame";
+   "Phenomena" -> "Object Oriented Analysis", "Predicate Logic";
+   "Poetry";
+   "Polya";
+   "Predicate Logic";
+   "Problem Complexity" -> "Multiframe Problem", "Problem Frame"
+   "Problem Context" -> "Application Domain", "Requirement", "Machine";
+   "Problem Frame" -> "Workpiece Frame", "Simple IS Frame", "Simple Control Frame", "JSP Frame", "Multiframe Problem";
+   "Problem Sensitivity";
+   "Procrustes";
+   "Raw Material";
+   "Refutable Description";
+   "Reification" -> "Individual"
+   "Requirement" -> "Application Domain";
+   "Restaurant" -> "Specification";
+   "Rough Sketch" -> "Machine";
+   "Scope of Description" -> "Designation", "Phenomena";
+   "Shared Phenomena" -> "Phenomena", "Individual", "Domain", "Context Diagram", "Machine";
+   "Simple Control Frame" -> "Shared Phenomena", "Connection Domain", "Requirement", "Problem Complexity", "Context Diagram", "Mood";
+   "Simple IS Frame" -> "Frame Diagram", "Requirement", "Shared Phenomena", "Multiframe Problem", "Connection Domain", "Connection Frame";
+   "Software" -> "Description", "Machine", "Description", "Domain", "Method";
+   "Software Engineering" -> "Problem Frame";
+   "Span of Description" -> "Scope of Description";
+   "Specification";
+   "Top-down" -> "Hierarchical Structure";
+   "Tree Diagram";
+   "Triplet";
+   "What and How" -> "Application Domain";
+   "Workpiece Frame" -> "Shared Phenomena", "Context Diagram", "Frame Digram", "Multiframe Problem";
+
+
+
 
 
 
