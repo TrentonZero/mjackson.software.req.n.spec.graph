@@ -1,0 +1,38 @@
+digraph { 
+  Ambiguity -> "Informal Domain";
+  Ambiguity -> "Designation";
+  "Application Domain" -> "Problen Frame";
+  "Application Domain" -> "Method";
+  "Application Domain" -> "Requirement";
+  "Arborcide";
+  "Bridges of Konigsberg";
+  "Brilliance";
+  "Calendar" -> "Problem Complexity";
+  "Calendar" -> "Tree Diagrams";
+  "Classification" -> "Designation";
+  "Classification" -> "Events and Intervals";
+  "Classification" -> "Definition";
+  "Composition" -> "Application Domain";
+  "Composition" -> "Tree Diagrams";
+  "Connection Domain" -> "Connection Frame";
+  "Connection Frame" -> "Shared Phenomena";
+  "Connection Frame" -> "Connection Domain";
+   "Context Diagrams" -> "Dataflow Diagram";
+   "Context Diagrams" -> "Application Domain";
+   "Context Diagrams" -> "Domain";
+   "Context Diagrams" -> "Context", "Multiframe Problem", "Shared Phenomena", "Connection Domain";
+   "Critical Reading";
+   "Dataflow Diagram" -> "Refutable Description", "Top Down";
+   "Definition" -> "Designation";
+   "Definition" -> "Narrow Bridge";
+   "Dekker";
+   "Description" -> "Designation", "Rough Sketch", "Refutable Description", "Definition", "Partial Description", "Scope", "Span";
+   "Designation";
+   "Deskilling";
+   "Domain Characteristics" -> "Problem Context", "Machine", "Designation", "Workpieces Frame";
+   "Domain Interaction" -> "Application Domain", "Context Diagram";
+   "Domain" -> "Problem Context", "Machine", "Application Domain", "Requirement", "Context Diagram", "Domain Characteristics", "Domain Interactions", "Problem Frame"
+
+
+
+}
