@@ -1,26 +1,26 @@
 digraph { 
   Ambiguity -> "Informal Domain";
   Ambiguity -> "Designation";
-  "Application Domain" -> "Problen Frame";
+  "Application Domain" -> "Problem Frame";
   "Application Domain" -> "Method";
   "Application Domain" -> "Requirement";
   "Arborcide";
   "Bridges of Konigsberg";
   "Brilliance";
   "Calendar" -> "Problem Complexity";
-  "Calendar" -> "Tree Diagrams";
+  "Calendar" -> "Tree Diagram";
   "Classification" -> "Designation";
-  "Classification" -> "Events and Intervals";
+  "Classification" -> "Events and Interval";
   "Classification" -> "Definition";
   "Composition" -> "Application Domain";
-  "Composition" -> "Tree Diagrams";
+  "Composition" -> "Tree Diagram";
   "Connection Domain" -> "Connection Frame";
   "Connection Frame" -> "Shared Phenomena";
   "Connection Frame" -> "Connection Domain";
-   "Context Diagrams" -> "Dataflow Diagram";
-   "Context Diagrams" -> "Application Domain";
-   "Context Diagrams" -> "Domain";
-   "Context Diagrams" -> "Context", "Multiframe Problem", "Shared Phenomena", "Connection Domain";
+   "Context Diagram" -> "Dataflow Diagram";
+   "Context Diagram" -> "Application Domain";
+   "Context Diagram" -> "Domain";
+   "Context Diagram" -> "Context", "Multiframe Problem", "Shared Phenomena", "Connection Domain";
    "Critical Reading";
    "Dataflow Diagram" -> "Refutable Description", "Top Down";
    "Definition" -> "Designation";
@@ -29,9 +29,27 @@ digraph {
    "Description" -> "Designation", "Rough Sketch", "Refutable Description", "Definition", "Partial Description", "Scope", "Span";
    "Designation";
    "Deskilling";
-   "Domain Characteristics" -> "Problem Context", "Machine", "Designation", "Workpieces Frame";
+   "Domain Characteristic" -> "Problem Context", "Machine", "Designation", "Workpieces Frame";
    "Domain Interaction" -> "Application Domain", "Context Diagram";
-   "Domain" -> "Problem Context", "Machine", "Application Domain", "Requirement", "Context Diagram", "Domain Characteristics", "Domain Interactions", "Problem Frame"
+   "Domain" -> "Problem Context", "Machine", "Application Domain", "Requirement", "Context Diagram", "Domain Characteristic", "Domain Interaction", "Problem Frame";
+   "Entity Relation Span" -> "Span of Description";
+   "Events and Intervals" -> "Individual";
+   "Existence" -> "Predicate Logic", "Designation", "Individual";
+   "Frame Diagram" -> "Context Diagram", "Application Domain", "Problem Frame", "Domain Characteristic";
+   "Fudge Factor" -> "Simple IS Frame", "Requirement", "Simple Control Frame";
+   "Graphic Notation";
+   "Hierarchical Structure";
+   "Identity";
+   "Implementation Bias" -> "Specification";
+   "Individual" -> "Domain Phenomena";
+   "Informal Domain";
+   "Is";
+   "JSP Frame" -> "Problem Frame", "Frame Diagram", "Context Diagram", "Tree Diagram", "Composition", "Misfit", "Calendar";
+   "Logical Positivism" -> "Designation", "Phenomena", "Rough Sketch", "Refutable Description";
+   "Machine";
+   "Mathematics";
+   "Method" -> "Multiframe Problem", "Problem Context", "Requirement";
+   "Misfit" -> "Problem Frame", "Procrustes", "Workpieces Frame", "Problem Context", "Requirement", "Simple IS Frame", "JSP Frame"
 
 
 
